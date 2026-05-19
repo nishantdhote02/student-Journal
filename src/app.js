@@ -16,10 +16,9 @@ connectDB();
 app.use(express.json());
 app.use(
   cors({
-    origin:
-      "https://student-journal-frontend-gfjyyzsfp-riyanstake12-9453s-projects.vercel.app",
+    origin: "https://student-journal-frontend.vercel.app",
     credentials: true,
-  }),
+  })
 );
 app.use(cookieParser());
 
