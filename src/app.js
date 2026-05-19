@@ -16,7 +16,7 @@ connectDB();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://student-journal-frontend-32b3ldzle-riyanstake12-9453s-projects.vercel.app",
+    origin: "https://student-journal-frontend.vercel.app",
     credentials: true,
   })
 );
